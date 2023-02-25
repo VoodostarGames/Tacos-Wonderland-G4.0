@@ -1,0 +1,112 @@
+[gd_scene format=3 uid="uid://sptuwattqnxx"]
+
+[node name="MobileGUI" type="CanvasLayer"]
+
+[node name="Left" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+grow_vertical = 0
+
+[node name="TouchLeft" type="TouchScreenButton" parent="Left"]
+modulate = Color(1, 1, 1, 0.501961)
+position = Vector2(58, -25)
+scale = Vector2(-2.4, 2.4)
+passby_press = true
+action = "left"
+
+[node name="Right" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 109.0
+offset_top = -45.0
+offset_right = 149.0
+offset_bottom = -5.0
+grow_vertical = 0
+
+[node name="TouchRight" type="TouchScreenButton" parent="Right"]
+modulate = Color(1, 1, 1, 0.501961)
+position = Vector2(-30, -19)
+scale = Vector2(2.4, 2.4)
+passby_press = true
+action = "right"
+
+[node name="Jump" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="TouchJump" type="TouchScreenButton" parent="Jump"]
+modulate = Color(1, 1, 1, 0.501961)
+position = Vector2(-20, -38)
+rotation = -1.5708
+scale = Vector2(2.4, 2.45701)
+passby_press = true
+action = "up"
+
+[node name="Sprinting" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="TouchSprint" type="TouchScreenButton" parent="Sprinting"]
+modulate = Color(1, 1, 1, 0.501961)
+position = Vector2(23, -25)
+rotation = 1.5708
+scale = Vector2(2.4, 2.4)
+passby_press = true
+action = "running"
+
+[node name="Pickup" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="TouchPickup" type="TouchScreenButton" parent="Pickup"]
+modulate = Color(1, 1, 1, 0.501961)
+position = Vector2(-78, -25)
+scale = Vector2(2.4, 2.4)
+passby_press = true
+action = "pickup"
+
+[node name="Pause" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 40.0
+grow_horizontal = 0
+
+[node name="TouchPause" type="TouchScreenButton" parent="Pause"]
+modulate = Color(1, 1, 1, 0.501961)
+position = Vector2(11, 5)
+scale = Vector2(1.4, 1.4)
+passby_press = true
+action = "pause"

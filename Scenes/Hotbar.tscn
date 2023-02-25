@@ -1,0 +1,80 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqp635jwwerdi"]
+
+[ext_resource type="Script" path="res://Scripts/Inventory Scripts/Slot.gd" id="2"]
+[ext_resource type="Script" path="res://Scripts/Inventory Scripts/Hotbar.gd" id="3"]
+
+[node name="Hotbar" type="Node2D"]
+script = ExtResource("3")
+
+[node name="HotbarSlots" type="GridContainer" parent="."]
+offset_left = 165.0
+offset_top = 239.0
+offset_right = 337.0
+offset_bottom = 279.0
+columns = 8
+
+[node name="HotbarSlot1" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot2" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot3" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot4" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot5" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot6" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot7" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="HotbarSlot8" type="Panel" parent="HotbarSlots"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+script = ExtResource("2")
+
+[node name="ItemText" type="Label" parent="."]
+offset_left = 163.0
+offset_top = 225.0
+offset_right = 225.0
+offset_bottom = 238.0
+scale = Vector2(0.7, 0.7)
+text = "Sample Text"
+
+[node name="MobileInput" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="InventoryButton" type="TouchScreenButton" parent="MobileInput"]
+position = Vector2(367, 277)
+scale = Vector2(1.2, 1.2)
+action = "inventory"
