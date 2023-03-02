@@ -1,11 +1,2 @@
-res://Scenes/Main Menu.tscn
+res://Scenes/PauseCanvas.tscn
 res://Skins/Default Skins/DefaultSkin.tres
-res://Scenes/WorldText.tscn
-res://Scenes/TextUI.tscn
-res://Scenes/PlayerController.tscn
-res://Scenes/MobileGUI.tscn
-res://Scenes/ItemDrop.tscn
-res://Scenes/Item.tscn
-res://Scenes/Hotbar.tscn
-res://Scripts/Player Scripts/Player.gd
-res://Scripts/Misc Scripts/ParallaxMenu.gd

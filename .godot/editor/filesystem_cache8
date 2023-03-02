@@ -1,72 +1,71 @@
 2a60927148abd1d33b818b535e306557
-::res://::1677322904
+::res://::1677772985
 default_env.tres::Environment::-1::1677316502::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1676194421::0::1::::<><>::
-::res://android/::1676832176
+::res://android/::1677769314
 ::res://android/plugins/::1673548264
-::res://Fonts/::1677321516
+::res://Fonts/::1677769314
 Caja.ttf::FontFile::117605207752349777::1676133004::1677317539::1::::<><>::
 GrapeSoda.ttf::FontFile::7268119130877906120::1676913759::1677321516::1::::<><>::
 magobold.ttf::FontFile::6899056293789834244::1674470826::1677317539::1::::<><>::
 magolight.ttf::FontFile::8375209290355452592::1674470805::1677317539::1::::<><>::
-::res://GameData/::1677318421
+::res://GameData/::1677769315
 ItemData.json::JSON::-1::1677318421::0::1::::<><>::
-::res://Music/::1677316550
+::res://Music/::1677769315
 1-Minute Nature Background Sound.mp3::AudioStreamMP3::1092484830387710326::1673528546::1677316550::1::::<><>::
 Letting Go - Ambient Background Music.mp3::AudioStreamMP3::7194491907437925540::1676193314::1677316550::1::::<><>::
-::res://Scenes/::1677322419
-Hotbar.tscn::PackedScene::3542341667850513074::1677322419::0::1::::<><>::res://Scripts/Inventory Scripts/Slot.gd<>res://Scripts/Inventory Scripts/Hotbar.gd
-Inventory.tscn::PackedScene::-1::1677316503::0::1::::<><>::res://Sprites/Inventory Sprites/Inventory GUI/item_slot_default_background.png<>res://Sprites/Inventory Sprites/Inventory GUI/default_inventory_background.png<>res://Scripts/Inventory Scripts/Slot.gd<>res://Scripts/Inventory Scripts/Inventory.gd<>res://Sprites/Inventory Sprites/Inventory GUI/ShirtOverlay.png<>res://Sprites/Inventory Sprites/Inventory GUI/PantsOverlay.png<>res://Sprites/Inventory Sprites/Inventory GUI/ShoesOverlay.png<>res://Fonts/fibberish.ttf
-Item.tscn::PackedScene::3792178265975864988::1677322419::0::1::::<><>::res://Scripts/Inventory Scripts/Item.gd<>uid://cerpio3ytqrim
-ItemDrop.tscn::PackedScene::8996583952237461618::1677322419::0::1::::<><>::uid://lrb114nlw1mw<>res://Scripts/Inventory Scripts/ItemDrop.gd
-Main Menu.tscn::PackedScene::7078885933767391603::1677322418::0::1::::<><>::uid://darch3s820tyq<>res://Scripts/Misc Scripts/MainMenu.gd<>res://Scripts/Misc Scripts/ParallaxMenu.gd<>uid://bdel87qtl0fy4<>uid://2nbcxoowcoxu<>uid://bkqxw0j5rlmbq<>uid://bqcs0s4wntmc2<>uid://lwlg1dp1d7np<>uid://bt17n5ry0xslj<>uid://dbsy4inkkwong<>uid://dl3pbgpp5s8pu<>uid://bw768k6nyjq4
-MobileGUI.tscn::PackedScene::1295555346939151593::1677322419::0::1::::<><>::
-PauseCanvas.tscn::PackedScene::-1::1677316503::0::1::::<><>::res://Scenes/PauseMenu.tscn
-PauseGUI.tscn::PackedScene::-1::1677316503::0::1::::<><>::res://Scenes/PauseMenu.tscn
-PauseMenu.tscn::PackedScene::-1::1677316503::0::1::::<><>::res://Scripts/Misc Scripts/PauseMenu.gd<>res://Fonts/fibberish.ttf
-PlayerController.tscn::PackedScene::7654023711005810097::1677322419::0::1::::<><>::res://Scripts/Player Scripts/Player.gd<>uid://bmog1504n0dd6<>res://Scripts/Inventory Scripts/PickupZone.gd
-TextUI.tscn::PackedScene::6023971768638286560::1677322418::0::1::::<><>::res://Scripts/Misc Scripts/Framerate.gd<>res://Scripts/Misc Scripts/MemoryUsage.gd
-World.tscn::PackedScene::-1::1677316503::0::1::::<><>::res://Scripts/World3D Scripts/Day Night Cycle.gd<>res://Scenes/Inventory.tscn<>res://Scenes/Hotbar.tscn<>res://Scenes/PauseCanvas.tscn<>res://Scenes/ItemDrop.tscn<>res://Scenes/WorldText.tscn<>res://Scenes/MobileGUI.tscn<>res://Scenes/PlayerController.tscn<>res://Scripts/Player Scripts/VisibilityNotifier.gd<>res://Scripts/Misc Scripts/World.gd<>res://Scripts/Inventory Scripts/UserInterface.gd<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_2.png<>res://Sprites/Core Game Sprites/TilesNonSliced.png<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_3.png<>res://Music/1-Minute Nature Background Sound.mp3<>res://Sprites/Core Game Sprites/tilesetinvisible.png<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_4.png<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_6.png<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_1.png<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_5.png<>res://Sprites/Core Game Sprites/Background/BG_Light_Layer_7.png
-WorldText.tscn::PackedScene::8997832029388129096::1677322418::0::1::::<><>::res://Scripts/Misc Scripts/Framerate.gd
-::res://Scripts/::1676832176
-::res://Scripts/Inventory Scripts/::1677320316
+::res://Scenes/::1677772969
+Hotbar.tscn::PackedScene::3542341667850513074::1677335642::0::1::::<><>::res://Scripts/Inventory Scripts/Slot.gd<>res://Scripts/Inventory Scripts/Hotbar.gd
+InfoUI.tscn::PackedScene::6023971768638286560::1677772969::0::1::::<><>::res://Scripts/Misc Scripts/Framerate.gd<>res://Scripts/Misc Scripts/MemoryUsage.gd
+Inventory.tscn::PackedScene::8055560172973448497::1677335642::0::1::::<><>::uid://d0rdmunahbf6t<>res://Scripts/Inventory Scripts/Slot.gd<>res://Scripts/Inventory Scripts/Inventory.gd<>uid://cfbljug6b6xrv<>uid://coqvm8gtn7chq<>uid://ihwvw28y5dp0
+Item.tscn::PackedScene::3792178265975864988::1677335642::0::1::::<><>::res://Scripts/Inventory Scripts/Item.gd<>uid://cerpio3ytqrim
+ItemDrop.tscn::PackedScene::8996583952237461618::1677335642::0::1::::<><>::uid://lrb114nlw1mw<>res://Scripts/Inventory Scripts/ItemDrop.gd
+Main Menu.tscn::PackedScene::7078885933767391603::1677772968::0::1::::<><>::uid://darch3s820tyq<>res://Scripts/Misc Scripts/MainMenu.gd<>res://Scripts/Misc Scripts/ParallaxMenu.gd<>uid://bdel87qtl0fy4<>uid://2nbcxoowcoxu<>uid://bkqxw0j5rlmbq<>uid://bqcs0s4wntmc2<>uid://lwlg1dp1d7np<>uid://bt17n5ry0xslj<>uid://dbsy4inkkwong<>uid://dl3pbgpp5s8pu<>uid://bw768k6nyjq4
+MobileGUI.tscn::PackedScene::1295555346939151593::1677335642::0::1::::<><>::
+PauseCanvas.tscn::PackedScene::8199619817441025384::1677772969::0::1::::<><>::uid://dlgaxdokqimte
+PauseMenu.tscn::PackedScene::7943766850555207482::1677772969::0::1::::<><>::res://Scripts/Misc Scripts/PauseMenu.gd
+PlayerController.tscn::PackedScene::7654023711005810097::1677335642::0::1::::<><>::res://Scripts/Player Scripts/Player.gd<>uid://bmog1504n0dd6<>res://Scripts/Inventory Scripts/PickupZone.gd
+World.tscn::PackedScene::2725795374514383903::1677772968::0::1::::<><>::uid://bqp635jwwerdi<>uid://do27smyoonomq<>uid://d1gaonko6414y<>uid://d1gu8jvv2ehdw<>uid://sptuwattqnxx<>res://Scripts/World Scripts/Day Night Cycle.gd<>uid://dhbwwgafycs62<>res://Scripts/Player Scripts/VisibilityNotifier.gd<>res://Scripts/Misc Scripts/World.gd<>res://Scripts/Inventory Scripts/UserInterface.gd<>uid://dyujsis1wyk6q<>uid://b3fq3j7c2lohl<>uid://pthch1c0g3pi<>uid://cqjvjx13fiilp<>uid://b7v8kf2ug3f71<>uid://dcm1bmc7tnxwm<>uid://bdf8blivvncvl<>uid://cl8b58ry7dpre
+WorldText.tscn::PackedScene::8997832029388129096::1677772968::0::1::::<><>::res://Scripts/Misc Scripts/Framerate.gd
+::res://Scripts/::1677769316
+::res://Scripts/Inventory Scripts/::1677769316
 Hotbar.gd::GDScript::-1::1677316503::0::1::::<>Node2D<>::
-Inventory.gd::GDScript::-1::1677316503::0::1::::<>Node2D<>::
+Inventory.gd::GDScript::-1::1677335764::0::1::::<>Node2D<>::
 Item.gd::GDScript::-1::1677316503::0::1::::<>Node2D<>::
-ItemDrop.gd::GDScript::-1::1677316503::0::1::::<>CharacterBody2D<>::
+ItemDrop.gd::GDScript::-1::1677334327::0::1::::<>CharacterBody2D<>::
 JSONData.gd::GDScript::-1::1677320316::0::1::::<>Node<>::
 PickupZone.gd::GDScript::-1::1677316503::0::1::::<>Area2D<>::
 PlayerInventory.gd::GDScript::-1::1677316503::0::1::::<>Node<>::
 Slot.gd::GDScript::-1::1677316503::0::1::::<>Panel<>::
 UserInterface.gd::GDScript::-1::1677316503::0::1::::<>CanvasLayer<>::
-::res://Scripts/Misc Scripts/::1677322405
+::res://Scripts/Misc Scripts/::1677772804
 ButtonControl.gd::GDScript::-1::1677316502::0::1::::<>Button<>::
 Framerate.gd::GDScript::-1::1677316502::0::1::::<>ColorRect<>::
-MainMenu.gd::GDScript::-1::1677316502::0::1::::<>Node2D<>::
+MainMenu.gd::GDScript::-1::1677772639::0::1::::<>Node2D<>::
 MemoryUsage.gd::GDScript::-1::1677316502::0::1::::<>ColorRect<>::
-ParallaxMenu.gd::GDScript::-1::1677322405::0::1::::<>ParallaxBackground<>::
-PauseMenu.gd::GDScript::-1::1677316502::0::1::::<>Control<>::
-World.gd::GDScript::-1::1677316502::0::1::::<>Node<>::
-::res://Scripts/Player Scripts/::1677321942
+ParallaxMenu.gd::GDScript::-1::1677416072::0::1::::<>ParallaxBackground<>::
+PauseMenu.gd::GDScript::-1::1677772804::0::1::::<>Control<>::
+World.gd::GDScript::-1::1677772671::0::1::::<>Node<>::
+::res://Scripts/Player Scripts/::1677772743
 Player.gd::GDScript::-1::1677321942::0::1::::<>CharacterBody2D<>::
-VisibilityNotifier.gd::GDScript::-1::1677316502::0::1::::<>VisibleOnScreenNotifier2D<>::
-::res://Scripts/World Scripts/::1676832176
+VisibilityNotifier.gd::GDScript::-1::1677772743::0::1::::<>VisibleOnScreenNotifier2D<>::
+::res://Scripts/World Scripts/::1677769316
 Day Night Cycle.gd::GDScript::-1::1677316502::0::1::::<>CanvasModulate<>::
-::res://Skins/::1676832176
-::res://Skins/Default Skins/::1677320479
-DefaultSkin.tres::SpriteFrames::3258000444161053193::1677320479::0::1::::<><>::uid://ddyd16s8iq6ns<>uid://506lxgg1bdmq<>uid://ctlt88crt4mq7<>uid://cyhtcve3tx3ho
+::res://Skins/::1677769316
+::res://Skins/Default Skins/::1677772968
+DefaultSkin.tres::SpriteFrames::3258000444161053193::1677772968::0::1::::<><>::uid://ddyd16s8iq6ns<>uid://506lxgg1bdmq<>uid://ctlt88crt4mq7<>uid://cyhtcve3tx3ho
 ::res://Skins/Special Skins/::1675271719
-::res://Sprites/::1676832177
-::res://Sprites/Character Sprites/::1676832176
-::res://Sprites/Character Sprites/Taco/::1677321211
+::res://Sprites/::1677769320
+::res://Sprites/Character Sprites/::1677769316
+::res://Sprites/Character Sprites/Taco/::1677769317
 Owlet_Monster_Idle_4.png::CompressedTexture2D::6130351843024009768::1673116444::1677316551::1::::<><>::
 Owlet_Monster_Jump_8.png::CompressedTexture2D::2159177841114460444::1673181847::1677316551::1::::<><>::
 Owlet_Monster_Run_6.png::CompressedTexture2D::6472982563895859924::1673188905::1677316551::1::::<><>::
 Owlet_Monster_Walk_6.png::CompressedTexture2D::7419603887251720424::1673181847::1677321211::1::::<><>::
-::res://Sprites/Core Game Sprites/::1677316552
+::res://Sprites/Core Game Sprites/::1677769317
 tilesetinvisible.png::CompressedTexture2D::3536955883234166746::1673627317::1677316552::1::::<><>::
 TilesNonSliced.png::CompressedTexture2D::8934267848936492502::1673280990::1677316552::1::::<><>::
-::res://Sprites/Core Game Sprites/Background/::1677316552
+::res://Sprites/Core Game Sprites/Background/::1677769317
 BG_Light_Layer_1.png::CompressedTexture2D::7325993333859591020::1673284739::1677316551::1::::<><>::
 BG_Light_Layer_2.png::CompressedTexture2D::8885660899903419190::1673284739::1677316551::1::::<><>::
 BG_Light_Layer_3.png::CompressedTexture2D::4363052190713200505::1673284739::1677316551::1::::<><>::
@@ -74,20 +73,20 @@ BG_Light_Layer_4.png::CompressedTexture2D::5915734643855663797::1673284739::1677
 BG_Light_Layer_5.png::CompressedTexture2D::2609315141030703157::1673284739::1677316551::1::::<><>::
 BG_Light_Layer_6.png::CompressedTexture2D::4677837436890038766::1673284739::1677316551::1::::<><>::
 BG_Light_Layer_7.png::CompressedTexture2D::5613159164764022874::1673284739::1677316551::1::::<><>::
-::res://Sprites/Core Game Sprites/Backgroundv2/::1677316552
+::res://Sprites/Core Game Sprites/Backgroundv2/::1677769319
 1.png::CompressedTexture2D::2605973250085767225::1676299698::1677316552::1::::<><>::
 2.png::CompressedTexture2D::1922001207940133770::1676223358::1677316552::1::::<><>::
 3.png::CompressedTexture2D::3122776270811137738::1676223358::1677316552::1::::<><>::
 4.png::CompressedTexture2D::3514709479364500599::1676223358::1677316552::1::::<><>::
 5.png::CompressedTexture2D::818173563249480225::1676223358::1677316552::1::::<><>::
 6.png::CompressedTexture2D::3775650296597524175::1676223358::1677316552::1::::<><>::
-::res://Sprites/Icon Sprites/::1677316552
+::res://Sprites/Icon Sprites/::1677769319
 androidbkg.png::CompressedTexture2D::4474010934498888616::1676105654::1677316552::1::::<><>::
 androidfrg.png::CompressedTexture2D::121628405013361345::1676105654::1677316552::1::::<><>::
 androidmain.png::CompressedTexture2D::1851892299598757784::1676105654::1677316552::1::::<><>::
 tacologo.png::CompressedTexture2D::2001485857023381669::1676104610::1677316552::1::::<><>::
-::res://Sprites/Inventory Sprites/::1676832177
-::res://Sprites/Inventory Sprites/Inventory GUI/::1677316552
+::res://Sprites/Inventory Sprites/::1677769319
+::res://Sprites/Inventory Sprites/Inventory GUI/::1677769319
 default_inventory_background.png::CompressedTexture2D::8949282214913147901::1674240807::1677316552::1::::<><>::
 hotbar_background.png::CompressedTexture2D::7109256519152474108::1674403348::1677316552::1::::<><>::
 item_slot_default_background.png::CompressedTexture2D::2913316523348863940::1674240807::1677316552::1::::<><>::
@@ -96,14 +95,14 @@ item_slot_selected_background.png::CompressedTexture2D::2094847380160414472::167
 PantsOverlay.png::CompressedTexture2D::5789813452179853366::1674412774::1677316550::1::::<><>::
 ShirtOverlay.png::CompressedTexture2D::5126534983542908443::1674412774::1677316550::1::::<><>::
 ShoesOverlay.png::CompressedTexture2D::577335867651589107::1674412774::1677316550::1::::<><>::
-::res://Sprites/Inventory Sprites/Inventory Items/::1677316550
+::res://Sprites/Inventory Sprites/Inventory Items/::1677769320
 Blue Jeans.png::CompressedTexture2D::7862287101074526618::1674414459::1677316550::1::::<><>::
 Brown Boots.png::CompressedTexture2D::8377636743193290381::1674414459::1677316550::1::::<><>::
 Brown Shirt.png::CompressedTexture2D::524650742116513572::1674414459::1677316550::1::::<><>::
 Iron Sword.png::CompressedTexture2D::5089616984697998992::1674241402::1677316550::1::::<><>::
 Slime Potion.png::CompressedTexture2D::807280260484353366::1674244257::1677316550::1::::<><>::
 Tree Branch.png::CompressedTexture2D::2356962640768542806::1674241729::1677316550::1::::<><>::
-::res://Sprites/MobileGUI Sprites/::1677316551
+::res://Sprites/MobileGUI Sprites/::1677769320
 djump.png::CompressedTexture2D::1553271399582367379::1676055242::1677316550::1::::<><>::
 djumpempty.png::CompressedTexture2D::6835757059131858623::1676055242::1677316550::1::::<><>::
 inventory.png::CompressedTexture2D::8604754477007139956::1675006223::1677316551::1::::<><>::
@@ -114,9 +113,9 @@ pause.png::CompressedTexture2D::886663017328546901::1675710890::1677316551::1:::
 pausepressed.png::CompressedTexture2D::540910493524675541::1676051062::1677316551::1::::<><>::
 pickup.png::CompressedTexture2D::8902070077078152892::1676055674::1677316551::1::::<><>::
 pickupempty.png::CompressedTexture2D::8563228605472208822::1676057844::1677316551::1::::<><>::
-::res://Sprites/Text Sprites/::1677316552
+::res://Sprites/Text Sprites/::1677769320
 tacotitle.png::CompressedTexture2D::7990054787931269670::1676221487::1677316552::1::::<><>::
-::res://Sprites/UI Sprites/::1677316551
+::res://Sprites/UI Sprites/::1677769320
 ingamemouse.png::CompressedTexture2D::381132555767031480::1675433065::1677316551::1::::<><>::
 menumouse.png::CompressedTexture2D::970497641707011636::1675433121::1677316551::1::::<><>::
 testcursor2.png::CompressedTexture2D::1063026622935471525::1676189360::1677316551::1::::<><>::

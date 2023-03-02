@@ -15,8 +15,11 @@ func set_is_paused(value):
 	else:
 		Input.set_custom_mouse_cursor(null)
 
-func _on_Resume_pressed():
+func _on_resume_pressed():
 	self.is_paused = false
 
-func _on_Quit_pressed():
+func _on_settings_pressed():
+	pass
+
+func _on_quit_pressed():
 	var _temp = get_tree().change_scene_to_file("res://Scenes/Main Menu.tscn")

@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Taco's Wonderland"
+config/name="Taco's Wonderland : Across the Sea of Time"
 run/main_scene="res://Scenes/Main Menu.tscn"
 config/features=PackedStringArray("4.0")
 boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
@@ -29,9 +29,14 @@ window/size/viewport_width=640
 window/size/viewport_height=360
 window/size/window_width_override=1280
 window/size/window_height_override=720
+window/vsync/vsync_mode=0
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/vsync/use_vsync=false
+
+[filesystem]
+
+import/blender/enabled=false
 
 [gui]
 

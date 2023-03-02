@@ -1,15 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://cr3b6107ffn41"]
 
-[ext_resource type="Script" path="res://Scripts/Misc Scripts/Framerate.gd" id="1"]
-[ext_resource type="Script" path="res://Scripts/Misc Scripts/MemoryUsage.gd" id="3"]
+[ext_resource type="Script" path="res://Scripts/Misc Scripts/Framerate.gd" id="1_8g0gn"]
+[ext_resource type="Script" path="res://Scripts/Misc Scripts/MemoryUsage.gd" id="2_o4380"]
 
-[node name="TextUI" type="CanvasLayer"]
+[node name="InfoUI" type="CanvasLayer"]
 
 [node name="Framerate" type="ColorRect" parent="."]
 offset_right = 40.0
 offset_bottom = 40.0
 color = Color(1, 1, 1, 0)
-script = ExtResource("1")
+script = ExtResource("1_8g0gn")
 
 [node name="FPS_TEXT" type="Label" parent="Framerate"]
 layout_mode = 0
@@ -33,7 +33,7 @@ text = "100"
 offset_right = 40.0
 offset_bottom = 40.0
 color = Color(1, 1, 1, 0)
-script = ExtResource("3")
+script = ExtResource("2_o4380")
 
 [node name="MemoryText" type="Label" parent="MemUsage"]
 layout_mode = 0

@@ -48,6 +48,7 @@ script = ExtResource("2")
 script = ExtResource("3")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="MenuGUI/Background"]
+motion_offset = Vector2(1, 0)
 motion_mirroring = Vector2(640, 455)
 
 [node name="Sprite2D" type="Sprite2D" parent="MenuGUI/Background/ParallaxLayer"]
@@ -57,6 +58,7 @@ texture = ExtResource("4")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="MenuGUI/Background"]
 motion_scale = Vector2(0.6, 1)
+motion_offset = Vector2(0.6, 0)
 motion_mirroring = Vector2(805, 324)
 
 [node name="Sprite2D" type="Sprite2D" parent="MenuGUI/Background/ParallaxLayer2"]
@@ -66,6 +68,7 @@ texture = ExtResource("5")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="MenuGUI/Background"]
 motion_scale = Vector2(0.5, 1)
+motion_offset = Vector2(0.5, 0)
 motion_mirroring = Vector2(700, 324)
 
 [node name="Sprite2D" type="Sprite2D" parent="MenuGUI/Background/ParallaxLayer3"]
@@ -75,6 +78,7 @@ texture = ExtResource("6")
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="MenuGUI/Background"]
 motion_scale = Vector2(0.4, 1)
+motion_offset = Vector2(0.4, 0)
 motion_mirroring = Vector2(805, 324)
 
 [node name="Sprite2D" type="Sprite2D" parent="MenuGUI/Background/ParallaxLayer4"]
@@ -84,6 +88,7 @@ texture = ExtResource("7")
 
 [node name="ParallaxLayer5" type="ParallaxLayer" parent="MenuGUI/Background"]
 motion_scale = Vector2(0.3, 1)
+motion_offset = Vector2(0.3, 0)
 motion_mirroring = Vector2(920, 324)
 
 [node name="Sprite2D" type="Sprite2D" parent="MenuGUI/Background/ParallaxLayer5"]
@@ -93,6 +98,7 @@ texture = ExtResource("8")
 
 [node name="ParallaxLayer6" type="ParallaxLayer" parent="MenuGUI/Background"]
 motion_scale = Vector2(0.2, 1)
+motion_offset = Vector2(0.2, 0)
 motion_mirroring = Vector2(576, 324)
 
 [node name="Sprite2D" type="Sprite2D" parent="MenuGUI/Background/ParallaxLayer6"]
@@ -198,6 +204,6 @@ stream = ExtResource("1")
 autoplay = true
 mix_target = 1
 
-[connection signal="pressed" from="MenuGUI/Buttons/ButtonsContainer/Start Game" to="." method="_on_Start_Game_pressed"]
-[connection signal="pressed" from="MenuGUI/Buttons/ButtonsContainer/Game Settings" to="." method="_on_Game_Settings_pressed"]
-[connection signal="pressed" from="MenuGUI/Buttons/ButtonsContainer/Quit Game" to="." method="_on_Quit_Game_pressed"]
+[connection signal="pressed" from="MenuGUI/Buttons/ButtonsContainer/Start Game" to="." method="_on_start_game_pressed"]
+[connection signal="pressed" from="MenuGUI/Buttons/ButtonsContainer/Game Settings" to="." method="_on_game_settings_pressed"]
+[connection signal="pressed" from="MenuGUI/Buttons/ButtonsContainer/Quit Game" to="." method="_on_quit_game_pressed"]
