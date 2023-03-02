@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://be3npmaxl1dqt"]
+[gd_scene load_steps=20 format=3 uid="uid://be3npmaxl1dqt"]
 
 [ext_resource type="PackedScene" uid="uid://bqp635jwwerdi" path="res://Scenes/Hotbar.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://do27smyoonomq" path="res://Scenes/PauseCanvas.tscn" id="4"]
@@ -30,8 +30,6 @@ glow_hdr_threshold = 0.0
 glow_hdr_scale = 1.62
 glow_hdr_luminance_cap = 145.47
 
-[sub_resource type="TileSet" id="29"]
-
 [node name="World" type="Node"]
 script = ExtResource("10")
 
@@ -51,11 +49,11 @@ script = ExtResource("11")
 
 [node name="WorldAmbience" type="Node2D" parent="."]
 
-[node name="Day Night Cycle" type="CanvasModulate" parent="WorldAmbience"]
+[node name="Background" type="ParallaxBackground" parent="WorldAmbience"]
+
+[node name="Day Night Cycle" type="CanvasModulate" parent="WorldAmbience/Background"]
 color = Color(0.94902, 0.894118, 0.894118, 1)
 script = ExtResource("7_4dfce")
-
-[node name="Background" type="ParallaxBackground" parent="WorldAmbience"]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="WorldAmbience/Background"]
 motion_mirroring = Vector2(512, 288)
@@ -147,8 +145,6 @@ collision_layer = 4
 collision_mask = 2
 
 [node name="GameMap" type="TileMap" parent="."]
-position = Vector2(1.52588e-05, 0)
-tile_set = SubResource("29")
 format = 2
 
 [node name="Player" parent="." instance=ExtResource("8")]

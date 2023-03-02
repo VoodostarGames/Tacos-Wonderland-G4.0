@@ -1,2 +1,11 @@
 res://Scenes/PauseCanvas.tscn
 res://Skins/Default Skins/DefaultSkin.tres
+res://Scenes/PauseMenu.tscn
+res://Scenes/Main Menu.tscn
+res://Scenes/World.tscn
+res://Scenes/WorldText.tscn
+res://Scenes/InfoUI.tscn
+res://Scripts/Misc Scripts/MainMenu.gd
+res://Scripts/Misc Scripts/ParallaxMenu.gd
+res://Scripts/World Scripts/Day Night Cycle.gd
+res://Scripts/Inventory Scripts/Inventory.gd
